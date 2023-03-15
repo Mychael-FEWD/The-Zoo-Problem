@@ -130,8 +130,17 @@ a:hover {
 
 .bears-list img {
   margin-left: 5em;
+  margin-bottom: 1em;
 }
 
 .bears-link {
   padding: 1em 2em;
+}
+
+.animal-description {
+  font-weight: 300;
+}
+
+.animal-name {
+  font-size: 20px;
 }
