@@ -38,7 +38,7 @@ h1 {
 
 .header-nav-link:link,
 .header-nav-link:visited {
-  margin: 0 2.5em;
+  margin: 0 2.25em;
   padding: 5px 50px;
   display: inline-block;
   border-radius: 0.5em;
@@ -51,7 +51,6 @@ h1 {
 
 .header-nav-link:hover,
 .header-nav-link:active {
-  /* color: #ce3f3f; */
   background-color: #e6e0c5;
 }
 
