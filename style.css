@@ -38,7 +38,7 @@ h1 {
 
 .header-nav-link:link,
 .header-nav-link:visited {
-  margin: 0 5em;
+  margin: 0 2.5em;
   padding: 5px 50px;
   display: inline-block;
   border-radius: 0.5em;
@@ -88,7 +88,6 @@ section {
   flex-flow: column wrap;
   flex: 1;
   margin: 40px 10px;
-  padding: 5em;
   background-color: #fff9db;
   border-radius: 2em;
   color: #495057;
@@ -110,4 +109,29 @@ a:visited {
 a:hover {
   color: #ce3f3f;
   font-weight: 400;
+}
+
+.bears {
+  align-self: center;
+  font-size: 60px;
+  margin: 0.5em 0 0 0;
+}
+
+.bears-list {
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 2em;
+  gap: 15px;
+}
+
+.bears-list img {
+  margin-left: 5em;
+}
+
+.bears-link {
+  padding: 1em 2em;
 }
